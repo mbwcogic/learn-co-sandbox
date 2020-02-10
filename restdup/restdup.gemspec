@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "testcli/version"
+require "restdup/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "testcli"
-  spec.version       = Testcli::VERSION
+  spec.name          = "restdup"
+  spec.version       = Restdup::VERSION
   spec.authors       = ["'Michael Waldo'"]
   spec.email         = ["'mbwcogic@yahoo.com'"]
 

@@ -1,6 +1,6 @@
-require "testcli/version"
+require "restdup/version"
 
-module Testcli
+module Restdup
   class Error < StandardError; end
   # Your code goes here...
 end
